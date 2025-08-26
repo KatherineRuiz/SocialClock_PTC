@@ -17,7 +17,7 @@ namespace Modelos
         {
             //creamos una cadena de conexion
             string cadena =
-                $"Data Source = {servidor},14884;Initial Catalog = {baseDeDatos};Integrated Security = true;";
+                $"Data Source = {servidor},1433;Initial Catalog = {baseDeDatos};Integrated Security = true;";
 
             //Creamos un objeto de tipo SqlConnection
             SqlConnection con = new SqlConnection(cadena);

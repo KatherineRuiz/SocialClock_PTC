@@ -538,5 +538,10 @@ namespace Vistas.Formularios
             rbActivo.Visible = false;
             rbInactivo.Visible = false;
         }
+
+        private void txtCarnet_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

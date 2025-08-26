@@ -73,7 +73,6 @@ namespace Modelos.Entidades
             cmd.Parameters.AddWithValue("@estadoUsuario", estadoUsuario);
             cmd.Parameters.AddWithValue("@id_Rol", id_Rol);
 
-
             if (cmd.ExecuteNonQuery() > 0)
             {
                 return true;
