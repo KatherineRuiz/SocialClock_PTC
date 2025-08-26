@@ -54,14 +54,16 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controles\RedondearBoton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Formularios\frmCreacionUsuario.cs">
+    <Compile Include="..\..\..\social clock uniones\1- mio\socialclock\vistas\formularios\frmCreacionUsuario.cs">
+      <Link>Formularios\frmCreacionUsuario.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\frmCreacionUsuario.Designer.cs">
+    <Compile Include="..\..\..\social clock uniones\1- mio\socialclock\vistas\formularios\frmCreacionUsuario.Designer.cs">
+      <Link>Formularios\frmCreacionUsuario.Designer.cs</Link>
       <DependentUpon>frmCreacionUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\RedondearBoton.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Formularios\frmInicio-Colaborador.cs">
       <SubType>Form</SubType>
@@ -131,7 +133,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\frmCreacionUsuario.resx">
+    <EmbeddedResource Include="..\..\..\social clock uniones\1- mio\socialclock\vistas\formularios\frmCreacionUsuario.resx">
+      <Link>Formularios\frmCreacionUsuario.resx</Link>
       <DependentUpon>frmCreacionUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmInicio-Colaborador.resx">
